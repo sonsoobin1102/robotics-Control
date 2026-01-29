@@ -1,0 +1,15 @@
+설명:  Kalman Filter 센서 퓨전 알고리즘을 통해 위치 정확도 향상 프로그램 개발 + LSTM기반 딥러닝 모델과 비교분석 가능한 시뮬레이터
+
+사용 기술
+- 프로그래밍 언어: Python
+    - 데이터 & Ai 라이브러리: PyTorch(LSTM), NumPy, Pandas, Scikit-learn
+    - 시각화 라이브러리: Matplotlib
+- 수학적 모델: Kalman Filter 센서 데이터 Fusion 알고리즘 + Deep Learning
+
+주요 기능:
+- Kalman Filter의 예측 및 업데이트 과정과, 각 센서 데이터의 역할을 설명합니다.
+- LSTM기반 경로 예측 AI로 학습구간(Train)과 예측구간(Test)를 분리하여 성능 검증 시각화
+
+성과 :
+- 위치 정확도 향상: GPS와 IMU 데이터를 융합하여 위치 정확도 20% 향상
+- 시간 절감: 시뮬레이션을 활용해 Kalman Filter 파라미터를 실시간으로 조절하여 최적의 파라미터 찾음, 기존대비 시간 80% 단축
